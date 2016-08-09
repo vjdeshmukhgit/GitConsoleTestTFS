@@ -51,6 +51,7 @@
     <None Include="BasicPSScript.ps1" />
     <None Include="Invoke-MsBuild.psd1" />
     <None Include="Invoke-MsBuild.psm1" />
+    <None Include="PowerShell\BasicPSScript.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
