@@ -54,6 +54,9 @@
     <None Include="PowerShell\BasicPSScript.ps1" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="PowerShell\microsoft.crm.sdk.proxy.dll" />
+    <Content Include="PowerShell\microsoft.xrm.client.dll" />
+    <Content Include="PowerShell\microsoft.xrm.sdk.dll" />
     <Content Include="PowerShell\Xrm.Framework.CI.PowerShell.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
