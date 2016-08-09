@@ -48,10 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="BasicPSScript.ps1" />
     <None Include="Invoke-MsBuild.psd1" />
     <None Include="Invoke-MsBuild.psm1" />
     <None Include="PowerShell\BasicPSScript.ps1" />
+    <None Include="PowerShell\PatchFollowUnfollow_1_0_0_0.zip" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="PowerShell\microsoft.crm.sdk.proxy.dll" />
