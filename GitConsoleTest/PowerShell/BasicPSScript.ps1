@@ -12,7 +12,7 @@ Write-Host "Toolkit imported"
 $importJobId = [guid]::NewGuid()
 
 
-$connectionString="Url=https://nhtsagmssdev.crm9.dynamics.com; Username=mark.chinstate@usdot.onmicrosoft.com; Password=Kiss12345!; authtype=Office365"
+$connectionString="Url=https://nhtsagmssuat.crm9.dynamics.com; Username=mark.chinstate@usdot.onmicrosoft.com; Password=Kiss12345!; authtype=Office365"
 
 
 $import = Import-XrmSolution -ImportAsync $false -ConnectionString $connectionString -PublishWorkflows $true  -SolutionFilePath $fileToImport -WaitForCompletion $true
