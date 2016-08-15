@@ -4,7 +4,7 @@ $directorypath = Split-Path $invocation.MyCommand.Path
 
 Write-Host "Path $directorypath" 
 $toolkit = $directorypath + "\Xrm.Framework.CI.PowerShell.dll"
-$fileToImport = $directorypath + "\PatchFollowUnfollow_1_0_0_0.zip"
+$fileToImport = $directorypath + "\PostPatch_1_0_0_0.zip"
 Import-Module $toolkit
 
 Write-Host "Toolkit imported"
