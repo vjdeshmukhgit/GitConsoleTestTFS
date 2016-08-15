@@ -52,12 +52,14 @@
     <None Include="Invoke-MsBuild.psm1" />
     <None Include="PowerShell\BasicPSScript.ps1" />
     <None Include="PowerShell\PatchFollowUnfollow_1_0_0_0.zip" />
+    <None Include="PowerShell\PostPatch_1_0_0_0.zip" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="PowerShell\microsoft.crm.sdk.proxy.dll" />
     <Content Include="PowerShell\microsoft.xrm.client.dll" />
     <Content Include="PowerShell\microsoft.xrm.sdk.dll" />
     <Content Include="PowerShell\Xrm.Framework.CI.PowerShell.dll" />
+    <Content Include="SampleCIPage.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
