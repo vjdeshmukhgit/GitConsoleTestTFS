@@ -50,9 +50,9 @@
     <None Include="App.config" />
     <None Include="Invoke-MsBuild.psd1" />
     <None Include="Invoke-MsBuild.psm1" />
-    <None Include="PowerShell\BasicPSScript.ps1" />
-    <None Include="PowerShell\PatchFollowUnfollow_1_0_0_0.zip" />
-    <None Include="PowerShell\PostPatch_1_0_0_0.zip" />
+    <None Include="CRMSolutions\PatchFollowUnfollow_1_0_0_0.zip" />
+    <None Include="CRMSolutions\PostPatch_1_0_0_0.zip" />
+    <None Include="PowerShell\CrmSolutionBuildScript.ps1" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="PowerShell\microsoft.crm.sdk.proxy.dll" />
