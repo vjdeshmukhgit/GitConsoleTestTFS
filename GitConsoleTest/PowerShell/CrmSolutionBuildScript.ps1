@@ -3,7 +3,7 @@
 $invocation = (Get-Variable MyInvocation).Value
 $directorypath = Split-Path $invocation.MyCommand.Path
 
-Write-Host "Path $directorypath" 
+Write-Host "Script Path $directorypath" 
 $toolkit = $directorypath + "\Xrm.Framework.CI.PowerShell.dll"
  
 
