@@ -68,8 +68,8 @@ if($fileToImport -ne "none")
     # Write the import results in xml
 
     # this is where the document will be saved:
-    $xmlFile = $crmfolder + "\" + $logFile + "_ImportResult.xml"
- 
+   # $xmlFile = $crmfolder + "\" + $logFile + "_ImportResult.xml"
+    $xmlFile = "c:\temp\Test_ImportResult.xml"
 
     # get an XMLTextWriter to create the XML
     $XmlWriter = New-Object System.XMl.XmlTextWriter($xmlFile,$Null)
