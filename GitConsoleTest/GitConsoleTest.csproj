@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="CRMSolutions\PromptAppSavePatch_1_0_0_0.zip" />
+    <None Include="CRMSolutions\PromptAppSavePatch_1_0_0_1.zip" />
     <None Include="Invoke-MsBuild.psd1" />
     <None Include="Invoke-MsBuild.psm1" />
     <None Include="CRMSolutions\PatchFollowUnfollow_1_0_0_0.zip" />
